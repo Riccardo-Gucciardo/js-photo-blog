@@ -2,7 +2,7 @@ const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 const metodFetch = {method: 'GET'}
 const lista = document.querySelector('.row')
 
-fetch(endpoint, metodFetch)
+fetch(endpoint, metodFetch)  
 .then(res => res.json())
 .then(data=> {
     console.log(data);
