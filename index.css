@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+
+h1{
+    font-family: 'edu tas beginner', sans-serif;
+    font-size: 50px;
+
+}
+.card-text h3{
+    font-family: 'Sometipe mono', serif, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header{
+    background-image: url(./img/wall.png);
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;  
+ }
+ body{
+    background-image: url(./img/cork.png);
+    height: 80vh;    
+ }
